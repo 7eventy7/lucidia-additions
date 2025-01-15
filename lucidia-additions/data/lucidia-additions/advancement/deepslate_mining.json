@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:deepslate"
+        },
+        "title": "Mining Mastery",
+        "description": [
+            "",
+            {
+                "text": "Mine deepslate at the same speed as stone",
+                "color": "gold"
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "lucidia-additions:root",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

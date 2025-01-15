@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:name_tag"
+        },
+        "title": "Hue Said That?",
+        "description": [
+            "",
+            {
+                "text": "Changes player names to their chosen colors",
+                "color": "gold"
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "lucidia-additions:root",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

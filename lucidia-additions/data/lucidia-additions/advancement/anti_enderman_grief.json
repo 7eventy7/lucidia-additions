@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:ender_pearl"
+        },
+        "title": "Hands Off!",
+        "description": [
+            "",
+            {
+                "text": "Prevent Endermen from picking up blocks",
+                "color": "gold"
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "lucidia-additions:root",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

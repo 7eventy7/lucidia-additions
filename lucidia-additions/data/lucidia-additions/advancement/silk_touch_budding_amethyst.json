@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:budding_amethyst"
+        },
+        "title": "Gem Relocation Program",
+        "description": [
+            "",
+            {
+                "text": "Allows silk touch collection of budding amethyst blocks",
+                "color": "gold"
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "lucidia-additions:root",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
